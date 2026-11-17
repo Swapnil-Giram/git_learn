@@ -1,7 +1,7 @@
 # this is change done by swapnil
 # form swapnil branch 
 
-# adding changes for conflict 
+# adding changes for conflict resolution
 import json
 import re
 import os
