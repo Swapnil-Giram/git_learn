@@ -1,6 +1,6 @@
 # this is change done by swapnil
 # form swapnil branch 
-# adding line from master for conflict 
+# adding line from master for conflict 2nd time 
 import json
 import re
 import os
@@ -184,7 +184,6 @@ def extract_fields(pdf_path):
         print("\n===== RAW GEMINI OUTPUT END =====\n")
         raise RuntimeError(f"Gemini JSON parsing failed: {e}")
     
-# 38, 40, 58, 60
 
 result = extract_fields(r"D:\python_repo_chk\checklist\ExpData\39-Export CheckList.pdf")
 result_json = json.dumps(result, indent=2)
